@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nutrizio | Everyday nutrition, made personal</title>
+    <meta
+      name="description"
+      content="Nutrizio is a refined nutrition concept for turning preferences, routines, and goals into practical weekly food plans."
+    />
+    <meta property="og:title" content="Nutrizio | Everyday nutrition, made personal" />
+    <meta
+      property="og:description"
+      content="A modern landing page for a personalized nutrition brand built around clarity, trust, and everyday routines."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#f6f0e4" />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500,700&f[]=satoshi@400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Nutrizio home">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+            <path
+              d="M22 5.5c7.4 0 13.4 6 13.4 13.4 0 9.2-8.3 15.8-13.4 19.6C16.9 34.7 8.6 28.1 8.6 18.9 8.6 11.5 14.6 5.5 22 5.5Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M15.6 20.7c6.5.2 10.9-2.8 13.4-8.7 1.4 7.4-2 13.3-9.8 17.9"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M20.1 29.6c.2-4.4 1.4-8.2 3.6-11.6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>Nutrizio</span>
+        </a>
+
+        <div class="nav-links" aria-label="Page sections">
+          <a href="#method">Method</a>
+          <a href="#plans">Plans</a>
+          <a href="#proof">Proof</a>
+          <a href="#join">Join</a>
+        </div>
+
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal nutrition without the spreadsheet</p>
+          <h1 id="hero-title">Eat around real life, not around a perfect plan.</h1>
+          <p class="hero-lede">
+            Nutrizio turns your routines, preferences, and goals into calm weekly food guidance:
+            practical meals, clear nutrition patterns, and small adjustments you can actually keep.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#join">Start with a weekly plan</a>
+            <a class="button button-secondary" href="#method">See how it works</a>
+          </div>
+          <dl class="hero-stats" aria-label="Nutrizio product highlights">
+            <div>
+              <dt>12 min</dt>
+              <dd>to shape a starting profile</dd>
+            </div>
+            <div>
+              <dt>4 views</dt>
+              <dd>meals, habits, list, progress</dd>
+            </div>
+            <div>
+              <dt>0 fads</dt>
+              <dd>just usable food decisions</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual" aria-label="A preview of Nutrizio's weekly nutrition plan">
+          <div class="plate-card">
+            <div class="plate-card-header">
+              <span>Tuesday</span>
+              <strong>Balanced day</strong>
+            </div>
+            <div class="plate">
+              <span class="plate-segment greens"></span>
+              <span class="plate-segment grains"></span>
+              <span class="plate-segment protein"></span>
+              <span class="plate-center">62%</span>
+            </div>
+            <div class="macro-row" aria-hidden="true">
+              <span style="--size: 72%"></span>
+              <span style="--size: 48%"></span>
+              <span style="--size: 58%"></span>
+            </div>
+          </div>
+
+          <div class="routine-card">
+            <p class="card-label">Tonight</p>
+            <p class="routine-title">Salmon, fennel, citrus grains</p>
+            <p>High-protein dinner matched to a late meeting day and a lighter lunch.</p>
+            <ul role="list">
+              <li><span></span> Prep: 24 min</li>
+              <li><span></span> Swap: tofu or beans</li>
+            </ul>
+          </div>
+
+          <div class="ingredient-strip" aria-label="Ingredient balance">
+            <span>leafy</span>
+            <span>protein</span>
+            <span>fiber</span>
+            <span>citrus</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" aria-labelledby="intro-title">
+        <div class="section-kicker">The idea</div>
+        <div class="intro-grid">
+          <h2 id="intro-title">Nutrition works better when it starts with your week.</h2>
+          <p>
+            Most plans ask people to become someone else: a batch-cooking expert, a calorie
+            accountant, or a wellness maximalist. Nutrizio begins with constraints: time, appetite,
+            budget, culture, energy, and what is already in your kitchen.
+          </p>
+        </div>
+      </section>
+
+      <section class="section method" id="method" aria-labelledby="method-title">
+        <div class="section-heading">
+          <p class="eyebrow">A quieter method</p>
+          <h2 id="method-title">Three steps from intention to plate.</h2>
+        </div>
+        <div class="method-layout">
+          <article class="method-feature">
+            <span class="step-number">01</span>
+            <h3>Tell Nutrizio what normal looks like.</h3>
+            <p>
+              Capture preferences, allergies, weekly rhythm, food budget, cooking comfort, and
+              goals without turning setup into a medical intake form.
+            </p>
+          </article>
+          <article class="method-feature large">
+            <span class="step-number">02</span>
+            <h3>Get a plan that flexes.</h3>
+            <p>
+              The weekly guide shows meals, snack anchors, grocery priorities, and “busy-day”
+              fallbacks so one missed lunch does not collapse the whole system.
+            </p>
+            <div class="mini-plan" aria-label="Mini weekly plan preview">
+              <div><strong>Mon</strong><span>Market bowl</span></div>
+              <div><strong>Tue</strong><span>Citrus grains</span></div>
+              <div><strong>Wed</strong><span>Lentil soup</span></div>
+              <div><strong>Thu</strong><span>Eggs + greens</span></div>
+            </div>
+          </article>
+          <article class="method-feature">
+            <span class="step-number">03</span>
+            <h3>Adjust from what happened.</h3>
+            <p>
+              Light check-ins help the plan learn from appetite, sleep, schedule, cravings, and
+              energy without judgment or streak pressure.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section plans" id="plans" aria-labelledby="plans-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">What the site can sell</p>
+          <h2 id="plans-title">A landing page structure ready for three Nutrizio offers.</h2>
+        </div>
+        <div class="plan-grid">
+          <article class="plan-card">
+            <p class="card-label">Starter</p>
+            <h3>Weekly Reset</h3>
+            <p>One practical meal framework, grocery list, and friction audit for busy weeks.</p>
+            <a href="#join">Join the reset</a>
+          </article>
+          <article class="plan-card featured">
+            <p class="card-label">Signature</p>
+            <h3>Personal Plan</h3>
+            <p>Adaptive weekly guidance with preference-based meal ideas and simple progress notes.</p>
+            <a href="#join">Request early access</a>
+          </article>
+          <article class="plan-card">
+            <p class="card-label">Teams</p>
+            <h3>Workday Nutrition</h3>
+            <p>Lightweight food planning for offices, retreats, and teams with shared routines.</p>
+            <a href="#join">Talk to Nutrizio</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section proof" id="proof" aria-labelledby="proof-title">
+        <div class="proof-panel">
+          <div>
+            <p class="eyebrow">Trust language</p>
+            <h2 id="proof-title">Clear enough for beginners. Flexible enough for real households.</h2>
+          </div>
+          <blockquote>
+            “The plan felt like it understood my calendar before it told me what to cook. That was
+            the difference.”
+          </blockquote>
+          <div class="proof-notes" aria-label="Nutrizio trust notes">
+            <span>Dietitian-ready tone</span>
+            <span>No shame-based tracking</span>
+            <span>Built for substitutions</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section details" aria-labelledby="details-title">
+        <div class="details-copy">
+          <p class="eyebrow">Product principles</p>
+          <h2 id="details-title">Nutrition guidance should reduce decisions, not add chores.</h2>
+          <p>
+            Nutrizio’s content system is written around calm specificity: what to eat, when to
+            simplify, which ingredients matter this week, and what to ignore.
+          </p>
+        </div>
+        <div class="detail-list">
+          <article>
+            <h3>Preference-led</h3>
+            <p>Plans respect food culture, dislikes, and pantry reality instead of flattening meals.</p>
+          </article>
+          <article>
+            <h3>Shopping-aware</h3>
+            <p>Grocery priorities are grouped by meal role, so substitutions stay intuitive.</p>
+          </article>
+          <article>
+            <h3>Routine-first</h3>
+            <p>Busy days, travel days, family meals, and low-energy evenings are designed in.</p>
+          </article>
+          <article>
+            <h3>Progress without pressure</h3>
+            <p>Check-ins focus on patterns and small improvements, not perfection or punishment.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section join" id="join" aria-labelledby="join-title">
+        <div class="join-card">
+          <div>
+            <p class="eyebrow">Early access</p>
+            <h2 id="join-title">Bring Nutrizio to your next healthy week.</h2>
+            <p>
+              This preview uses a waitlist-style form. Swap it later for booking, checkout, or a
+              consultation request when the business model is final.
+            </p>
+          </div>
+          <form class="signup-form" data-signup-form>
+            <label for="email">Email address</label>
+            <div class="form-row">
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              <button class="button button-primary" type="submit">Join waitlist</button>
+            </div>
+            <p class="form-message" data-form-message aria-live="polite">
+              No spam. Just a launch note when Nutrizio is ready.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="brand compact-brand" href="#top" aria-label="Nutrizio home">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+            <path
+              d="M22 5.5c7.4 0 13.4 6 13.4 13.4 0 9.2-8.3 15.8-13.4 19.6C16.9 34.7 8.6 28.1 8.6 18.9 8.6 11.5 14.6 5.5 22 5.5Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M15.6 20.7c6.5.2 10.9-2.8 13.4-8.7 1.4 7.4-2 13.3-9.8 17.9"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>Nutrizio</span>
+        </a>
+        <p>Personal nutrition, designed around ordinary weeks.</p>
+        <span>Contact details to be confirmed</span>
+      </div>
+    </footer>
+  <script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="transform:translate(-${scrollX}px,-${scrollY}px);transform-origin:top left">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
