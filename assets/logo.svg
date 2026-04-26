@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" role="img" aria-label="Nutrizio logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#A0C878"/>
+      <stop offset="100%" stop-color="#DDEB9D"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect x="2" y="6" width="42" height="42" rx="14" fill="#FAF6E9" stroke="#A0C878" stroke-width="2"/>
+    <path d="M14 31c8-1 12-7 15-15 6 8 7 18-1 25-7 6-18 4-22-3 2-3 4-5 8-7Z" fill="url(#g)" stroke="#7AA75F" stroke-width="1.5"/>
+    <path d="M22 34c5-4 7-9 7-16" stroke="#5C8F44" stroke-width="2" stroke-linecap="round"/>
+    <text x="58" y="36" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#3C5730">Nutrizio</text>
+  </g>
+</svg>
